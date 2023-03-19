@@ -1,0 +1,9 @@
+namespace AppTP2
+{
+    [default_interface]
+    runtimeclass Page1 : Microsoft.UI.Xaml.Controls.Page
+    {
+        Page1();
+        Int32 MyProperty;
+    }
+}
