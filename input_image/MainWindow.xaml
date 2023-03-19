@@ -1,0 +1,65 @@
+﻿<Window
+    x:Class="App4.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
+    mc:Ignorable="d">
+
+    <!--Grid Width="900" Height="900" ColumnDefinitions="300, Auto, *" RowDefinitions ="300, Auto, * ">
+        <Image Height="300" Grid.Column="0" Grid.Row="0">
+            <Image.Source>
+                <BitmapImage UriSource="https://modo-phinf.pstatic.net/20201121_101/1605925549151Sc0Kb_JPEG/mosajb8iV4.jpeg"
+                 DecodePixelHeight="1000" />
+            </Image.Source>
+        </Image>
+        <Image Height="300" Grid.Column="1" Grid.Row="1">
+            <Image.Source>
+                <BitmapImage UriSource="https://modo-phinf.pstatic.net/20201121_101/1605925549151Sc0Kb_JPEG/mosajb8iV4.jpeg"
+                 DecodePixelHeight="1000" />
+            </Image.Source>
+        </Image>
+        <Image Height="300" Grid.Column="2" Grid.Row="0">
+            <Image.Source>
+                <BitmapImage UriSource="https://modo-phinf.pstatic.net/20201121_101/1605925549151Sc0Kb_JPEG/mosajb8iV4.jpeg"
+                DecodePixelHeight="1000" />
+            </Image.Source>
+        </Image>
+        <Image Height="300" Grid.Column="2" Grid.Row="1">
+            <Image.Source>
+                <BitmapImage UriSource="https://modo-phinf.pstatic.net/20201121_101/1605925549151Sc0Kb_JPEG/mosajb8iV4.jpeg"
+                DecodePixelHeight="1000" />
+            </Image.Source>
+        </Image>
+    </Grid-->
+
+    <Grid Width="900" Height="900" ColumnDefinitions="300, Auto, *" RowDefinitions ="300, Auto, * ">
+        <Image Height="300" Grid.Column="0" Grid.Row="0">
+            <Image.Source>
+                <BitmapImage UriSource="C:\Users\comeng11\Desktop\test1.1.png"
+                 DecodePixelHeight="1000" />
+            </Image.Source>
+        </Image>
+        <Image Height="300" Grid.Column="1" Grid.Row="1">
+            <Image.Source>
+                <BitmapImage UriSource="C:\Users\comeng11\Desktop\test1.2.png"
+                 DecodePixelHeight="1000" />
+            </Image.Source>
+        </Image>
+        <Image Height="300" Grid.Column="2" Grid.Row="0">
+            <Image.Source>
+                <BitmapImage UriSource="C:\Users\comeng11\Desktop\test1.3.png"
+                DecodePixelHeight="1000" />
+            </Image.Source>
+        </Image>
+        <Image Height="300" Grid.Column="2" Grid.Row="1">
+            <Image.Source>
+                <BitmapImage UriSource="C:\Users\comeng11\Desktop\test1.4.png"
+                DecodePixelHeight="1000" />
+            </Image.Source>
+        </Image>
+    </Grid>
+
+</Window>
